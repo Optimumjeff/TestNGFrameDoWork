@@ -5,6 +5,12 @@
     <classes>
       <class name="test.day1"/>
        <class name="test.day2"/>
+       <class name="test.day4"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Car Loan">
+  	<classes>
+  		<class name="test.day3"></class>
+  	</classes>
+  </test>
 </suite> <!-- Suite -->
