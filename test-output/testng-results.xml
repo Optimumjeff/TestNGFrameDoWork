@@ -1,49 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Department" duration-ms="160" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+  <suite name="Loan Department" duration-ms="144" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
     <groups>
     </groups>
-    <test name="Personal Loan" duration-ms="88" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+    <test name="Personal Loan" duration-ms="144" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
       <class name="test.day4">
-        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:test.day4@120ebad]" name="LoginAPIHomeLoan" duration-ms="2" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+        <test-method status="PASS" signature="APIHomeLoan()[pri:0, instance:test.day4@5ca609]" name="APIHomeLoan" duration-ms="6" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginAPIHomeLoan -->
-        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:test.day4@120ebad]" name="MobileLoginHomeLoan" duration-ms="4" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+        </test-method> <!-- APIHomeLoan -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:test.day4@5ca609]" name="MobileLoginHomeLoan" duration-ms="2" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:test.day4@120ebad]" name="WebLoginHomeLoan" duration-ms="3" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:test.day4@5ca609]" name="WebLoginHomeLoan" duration-ms="1" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHomeLoan -->
       </class> <!-- test.day4 -->
       <class name="test.day2">
-        <test-method status="PASS" signature="ploan()[pri:0, instance:test.day2@651fd0]" name="ploan" duration-ms="3" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+        <test-method status="PASS" signature="ploan()[pri:0, instance:test.day2@16905e]" name="ploan" duration-ms="3" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ploan -->
       </class> <!-- test.day2 -->
-      <class name="test.day1">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@1629756]" name="Demo" duration-ms="17" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-      </class> <!-- test.day1 -->
-    </test> <!-- Personal Loan -->
-    <test name="Car Loan" duration-ms="11" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
       <class name="test.day3">
-        <test-method status="PASS" signature="LoginAPIcarLoan()[pri:0, instance:test.day3@d25987]" name="LoginAPIcarLoan" duration-ms="2" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+        <test-method status="PASS" signature="LoginAPIcarLoan()[pri:0, instance:test.day3@2d45ba]" name="LoginAPIcarLoan" duration-ms="2" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPIcarLoan -->
-        <test-method status="PASS" signature="WebLogincarLoan()[pri:0, instance:test.day3@d25987]" name="WebLogincarLoan" duration-ms="1" started-at="2018-10-19T21:03:11Z" finished-at="2018-10-19T21:03:11Z">
+        <test-method status="PASS" signature="MobileLogincarLoan()[pri:0, instance:test.day3@2d45ba]" name="MobileLogincarLoan" duration-ms="1" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method status="PASS" signature="MobilesignincarLoan()[pri:0, instance:test.day3@2d45ba]" name="MobilesignincarLoan" duration-ms="1" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignincarLoan -->
+        <test-method status="PASS" signature="MobilesignoutcarLoan()[pri:0, instance:test.day3@2d45ba]" name="MobilesignoutcarLoan" duration-ms="1" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method status="PASS" signature="WebLogincarLoan()[pri:0, instance:test.day3@2d45ba]" name="WebLogincarLoan" duration-ms="2" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLogincarLoan -->
       </class> <!-- test.day3 -->
-    </test> <!-- Car Loan -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@1933fd1]" name="Demo" duration-ms="17" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:test.day1@1933fd1]" name="SecondTest" duration-ms="8" started-at="2018-10-19T21:14:03Z" finished-at="2018-10-19T21:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
   </suite> <!-- Loan Department -->
 </testng-results>

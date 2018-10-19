@@ -16,7 +16,7 @@
   	<classes>
   		<class name="test.day3">
   		<methods>
-  			<exclude name="MobileLogincarLoan"></exclude>
+  			<exclude name="API.*"></exclude>
   		</methods>
   		</class>
   	</classes>

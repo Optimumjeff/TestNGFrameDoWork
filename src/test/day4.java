@@ -19,7 +19,7 @@ public class day4 {
 	}
 	
 	@Test
-	public void LoginAPIHomeLoan()
+	public void APIHomeLoan()
 	{
 		//Rest API
 		System.out.println("LoginAPIHomeLoan");
