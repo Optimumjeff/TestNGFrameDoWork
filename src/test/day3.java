@@ -5,21 +5,21 @@ import org.testng.annotations.Test;
 public class day3 {
 	
 	@Test
-	public void WebLogincar()
+	public void WebLogincarLoan()
 	{
 		//selenium
 		System.out.println("WebLogincar");
 	}
 	
 	@Test
-	public void MobileLogincar()
+	public void MobileLogincarLoan()
 	{
 		//Appium
 		System.out.println("Mobilelogincar");
 	}
 	
 	@Test
-	public void LoginAPIcar()
+	public void LoginAPIcarLoan()
 	{
 		//Rest API
 		System.out.println("APILoginCar");
