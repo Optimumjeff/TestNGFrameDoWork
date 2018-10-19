@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75" started-at="2018-10-19T19:52:33Z" finished-at="2018-10-19T19:52:33Z">
+  <suite name="Loan Department" duration-ms="78" started-at="2018-10-19T20:15:53Z" finished-at="2018-10-19T20:15:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75" started-at="2018-10-19T19:52:33Z" finished-at="2018-10-19T19:52:33Z">
+    <test name="Personal Loan" duration-ms="78" started-at="2018-10-19T20:15:53Z" finished-at="2018-10-19T20:15:53Z">
+      <class name="test.day2">
+        <test-method status="PASS" signature="ploan()[pri:0, instance:test.day2@1081592]" name="ploan" duration-ms="2" started-at="2018-10-19T20:15:53Z" finished-at="2018-10-19T20:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
       <class name="test.day1">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@100a15d]" name="Demo" duration-ms="17" started-at="2018-10-19T19:52:33Z" finished-at="2018-10-19T19:52:33Z">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@1efea79]" name="Demo" duration-ms="21" started-at="2018-10-19T20:15:53Z" finished-at="2018-10-19T20:15:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="SecondTest()[pri:0, instance:test.day1@100a15d]" name="SecondTest" duration-ms="2" started-at="2018-10-19T19:52:33Z" finished-at="2018-10-19T19:52:33Z">
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:test.day1@1efea79]" name="SecondTest" duration-ms="3" started-at="2018-10-19T20:15:53Z" finished-at="2018-10-19T20:15:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondTest -->
       </class> <!-- test.day1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
 </testng-results>
