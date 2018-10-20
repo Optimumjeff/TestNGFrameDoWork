@@ -17,7 +17,7 @@ public class day3 {
 	}
 	
 	@Test
-	public void WebLogincarLoan()
+	public void WebloginCarLoan()
 	{
 		//selenium
 		System.out.println("WebLogincar");
@@ -51,21 +51,23 @@ public class day3 {
 	public void Bfsuite() {
 		System.out.println("Je suis le premier");
 	}
-	@Test
+	@Test(enabled=false)
 	public void MobilesignincarLoan()
 	{
 		//Appium
 		System.out.println("Mobile signincarLoan");
 	}
-	@Test
+	
+	
+	@Test(timeOut=400000)
 	public void MobilesignoutcarLoan()
 	{
 		//Appium
-		System.out.println("Mobile signoutcarLoan");
+		System.out.println("Mobile signoutcarLoan time out : 400000");
 	}
 	
-	@Test
-	public void LoginAPIcarLoan()
+	@Test(dependsOnMethods={"WebloginCarLoan","MobilesignoutcarLoan"})
+	public void APIcarLoan()
 	{
 		//Rest API
 		System.out.println("APILoginCar");
