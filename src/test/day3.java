@@ -1,11 +1,20 @@
 package test;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class day3 {
+	
+	@BeforeClass
+	public void beforeClass()
+	{
+		//selenium
+		System.out.println("Avant de lancer les methode de la classe");
+	}
 	
 	@Test
 	public void WebLogincarLoan()
@@ -24,7 +33,14 @@ public class day3 {
 		System.out.println("je passe apres chaque methode de la classe 3");
 	}
 	
-	@Test
+	@AfterClass
+	public void afterClass()
+	{
+		//selenium
+		System.out.println("apres avoir  lancer les methode de la classe");
+	}
+	
+	@Test(groups={"Smoke"})
 	public void MobileLogincarLoan()
 	{
 		//Appium
