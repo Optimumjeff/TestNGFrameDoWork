@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
+	
   <test name="Personal Loan">
+  <parameter name="URL" value="jeffartpersonalloan.com"/>
+  	
     <classes>
       <class name="test.day1">
       		<methods>
@@ -13,6 +16,8 @@
     </classes>
   </test> <!-- Test -->
   <test name="Car Loan">
+  <parameter name="URL" value="jeffartcarloan.com"/>
+  <parameter name="APIKey/usrname" value="123456"/>
   	<classes>
   		<class name="test.day3">
   		<methods>
